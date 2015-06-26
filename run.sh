@@ -31,4 +31,5 @@ deploy/samza/bin/run-job.sh --config-factory=org.apache.samza.config.factories.P
 
 while true; do
 	#EVIL! DO NOT DO THIS EVER
+	sleep 5
 done

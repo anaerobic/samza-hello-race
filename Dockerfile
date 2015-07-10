@@ -2,8 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Michael W. Martin <mwm.cal@gmail.com>
 
-RUN apt-get update && /
-	apt-get install -y default-jdk
+RUN apt-get update && apt-get install -y default-jdk
 
 ENV JAVA_HOME=/usr/lib/jvm/default-java
 

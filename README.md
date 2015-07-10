@@ -8,7 +8,7 @@ docker run -d -p 2181:2181 -h zookeeper.lacolhost.com --name zookeeper confluent
 docker run -d -p 9092:9092 -h kafka.lacolhost.com --name kafka --link zookeeper:zookeeper confluent/kafka
 ```
 
-Get up and running in no time in Docker with: ```docker run --rm --name hello-race --net host -it -p 8088:8088 anaerobic/hello-race bash```
+Get up and running in no time in Docker with: ```docker run --rm --net host -it -p 8088:8088 anaerobic/samza-hello-race bash```
 
 Use these commands to start YARN:
 ```sh
